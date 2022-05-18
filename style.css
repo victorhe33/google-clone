@@ -1,0 +1,65 @@
+* {
+  border: 1px red solid;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* HEADER */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header-links-1, .header-links-2 {
+  display: flex;
+  gap: 20px;
+}
+
+.header-links-2 {
+
+}
+
+
+/* CONTENT */
+.content-section {
+
+}
+
+.google-logo {
+  height: 92px;
+  width: 272px;
+}
+
+/* SPACER */
+.spacer-section {
+  flex-grow: 1;
+}
+
+/* FOOTER  */
+.footer-section {
+
+}
