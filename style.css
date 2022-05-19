@@ -149,4 +149,27 @@ button:hover {
   justify-content: space-between;
   height: 50px;
   background-color: rgba(0, 0, 0, .05);
+  padding: 0px 40px;
+}
+
+.footer-link-1,
+.footer-link-2,
+.footer-eco {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.footer-link-1,
+.footer-link-2 {
+  gap: 25px;
+}
+
+.footer-eco {
+  display: flex;
+  gap: 6px;
+}
+
+.footer-leaf {
+  height: 15px;
 }
