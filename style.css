@@ -1,5 +1,4 @@
 * {
-  /* border: 1px red solid; */
   margin: 0;
   padding: 0;
 }
@@ -61,7 +60,6 @@ body {
 
 #header-apps:hover,
 .header-profile-icon:hover {
-  /* box-shadow: 0 0 0 3px lightgrey; */
   background-color: rgba(0, 0, 0, .05);
 }
 
@@ -97,7 +95,6 @@ body {
 
 .content-searchbar:hover {
   box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
-  /* border: 1px solid white; */
 }
 
 #content-search-icon {
