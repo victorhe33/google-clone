@@ -112,7 +112,8 @@ body {
 }
 
 .content-microphone-icon {
-  height: 26px;
+  height: 20px;
+  min-width: 20px;
 }
 
 .content-buttons {
@@ -127,6 +128,7 @@ button {
   background-color: rgba(0, 0, 0, .025);
   font-size: 14px;
   color: rgba(0, 0, 0, .8);
+  width: max-content;
 }
 
 button:hover {
@@ -183,6 +185,7 @@ button:hover {
   .footer-section {
     align-items: center;
     justify-content: space-between;
+    gap: 0 15px;
   }
 
   .footer-section > div {
